@@ -1,14 +1,10 @@
 {
-  "name": "dotcom-react",
+  "name": "test-react",
   "version": "1.0.0",
   "description": "A lightweight React component library",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean-build && npm run build-dev && npm run build-prod",
-    "build-dev": "webpack --mode=none",
-    "clean-build": "rimraf dist",
-    "build-prod": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=none"
   },
   "author": "",
   "license": "ISC",
